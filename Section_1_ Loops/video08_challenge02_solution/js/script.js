@@ -26,6 +26,7 @@ for (var i = 0; i < 100; i += 1) {
   html += '<div style="background-color:' + rgbColor + '"></div>';
 }
 
+//activates print function with html 
 print(html);
 
 
