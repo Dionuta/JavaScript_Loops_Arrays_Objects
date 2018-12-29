@@ -1,7 +1,7 @@
-var upper = 10000;
-var randomNumber = getRandomNumber (upper);
-var guess;
-var attemps  = 0;
+let upper = 10000;
+let randomNumber = getRandomNumber (upper);
+let guess;
+let attemps  = 0;
 //makes random number between 1 and upper var.
 function getRandomNumber(upper) {
   return Math.floor( Math.random() * upper ) + 1;
