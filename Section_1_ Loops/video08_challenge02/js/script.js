@@ -1,12 +1,13 @@
-var html = '';
-var rgbColor;
+let html = '';
+let rgbColor;
 
+//RANDOM number
 function randomRGB() {
  return Math.floor(Math.random() * 256 ); 
 }
-
+//creats random rgb colors
 function randomColor() {
-  var color = 'rgb(';
+  let color = 'rgb(';
   color += randomRGB() + ',';
   color += randomRGB() + ',';
   color += randomRGB() + ')';
@@ -16,8 +17,8 @@ function randomColor() {
 function print(message) {
   document.write(message);
 }
-
-for (var i = 0; i < 10; i += 1) {
+//creats 10 div that take the rgbColor function 
+for (let i = 0; i < 10; i += 1) {
   rgbColor = randomColor();
   html += '<div style="background-color:' + rgbColor + '"></div>';
 }
