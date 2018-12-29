@@ -1,5 +1,5 @@
 //empty array
-var playList = [];
+let playList = [];
 
 // adds data to the end of an array
 playList.push(' I Did It My Way');
