@@ -1,4 +1,4 @@
-var playList = [
+let playList = [
   'I Did It My Way',
   'Respect',
   'Imagine',
@@ -14,8 +14,8 @@ function print(message) {
 
 // Make a list from array that is passed
 function printList (list) {
-   var listHTML = '<ol>';
-  for ( var i = 0; i < list.length; i += 1) {
+   let listHTML = '<ol>';
+  for ( let i = 0; i < list.length; i += 1) {
      listHTML += '<li>' + list[i] +  '</li>';
      }
    
