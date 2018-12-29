@@ -1,16 +1,17 @@
-var randomNumber = getRandomNumber(10);
-var guess;
-var guessCount = 0;
-var correctGuess = false;
+let randomNumber = getRandomNumber(10);
+let guess;
+let guessCount = 0;
+let correctGuess = false;
 
 function getRandomNumber( upper ) {
   var num = Math.floor(Math.random() * upper) + 1; 
   return num;
 }
-
+// Code runs in till user guesses correct number
 do {
   guess = prompt('I am thinking of a number between 1 and 10. What is it?');
   guessCount += 1;
+ //Stops code. 
   if (parseInt(guess) === randomNumber) {
     correctGuess = true;
   }  
