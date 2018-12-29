@@ -1,4 +1,4 @@
-var shopping = [ 'carrots', 'milk', 'eggs' ];
+let shopping = [ 'carrots', 'milk', 'eggs' ];
 
 // [0] = carrots
 console.log(shopping[0]);
