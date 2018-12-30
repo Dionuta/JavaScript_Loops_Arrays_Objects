@@ -3,9 +3,8 @@ let randomNumber = getRandomNumber (upper);
 let guess;
 let attemps  = 0;
 //makes random number between 1 and upper var.
-function getRandomNumber(upper) {
-  return Math.floor( Math.random() * upper ) + 1;
-}
+const getRandomNumber = (upper) => Math.floor( Math.random() * upper ) + 1;
+
 //runs in till number gussed
 while (guess !== randomNumber) {
     guess = getRandomNumber(upper);

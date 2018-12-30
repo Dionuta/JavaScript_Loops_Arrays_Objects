@@ -20,14 +20,14 @@ search = prompt("Search for product in our store. Type 'list' or 'all' to show a
       break;
       } else if (search === 'list' || 'all'){
         print(inStock.join(', '));
-        break;
+      
       } else {
         if (inStock.indexOf(search) > -1) {
          print('Yes, we have ' + search + ' in stock.'  );
-          break;
+          
         } else {
          print(search + ' is not in stock.');
-          break;
+         
         }
       }
 }
